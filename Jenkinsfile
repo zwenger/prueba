@@ -8,7 +8,7 @@ pipeline {
     }
     stage('mensaje') {
       steps {
-        slackSend(attachments: 'hola')
+        slackSend(message: 'hola')
       }
     }
   }
