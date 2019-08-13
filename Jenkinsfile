@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('mensaje') {
       steps {
-        slackSend(token: '1bfecda2-54ad-4913-be28-7adf5df35c92', teamDomain: 'alfred-espacio', attachments: 'a', message: 'salio bien loco', color: 'green', channel: 'alfred')
+        slackSend(token: '	nzUct8WUftCkmvjT3wCgcljd', teamDomain: 'alfred-espacio', attachments: 'a', message: 'salio bien loco', color: 'green', channel: 'alfred')
       }
     }
   }
