@@ -8,7 +8,7 @@ pipeline {
     }
     stage('mensaje') {
       steps {
-        slackSend(message: 'hola')
+        slackSend(message: 'hola desde prueba')
       }
     }
   }
