@@ -1,9 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         echo '33'
+      }
+    }
+    stage('mensaje') {
+      steps {
+        slackSend()
       }
     }
   }
